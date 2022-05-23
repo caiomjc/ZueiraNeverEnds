@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:rowCount="4"
+    tools:context="solutions.caio.cavallieri.zueiraneverends.MainActivity">
+
+    <!-- Linha 1 -->
+    <Button
+        android:id="@+id/ibFaustao"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/faustao"
+        android:onClick="faustao"
+         /><!-- Faustão -->
+    <Button
+        android:id="@+id/ibFrodo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/frodo"
+        android:onClick="frodo"
+        /><!-- Frodo -->
+    <Button
+        android:id="@+id/ibMarmota"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/marmota"
+        android:onClick="marmota"
+        /><!-- Marmota -->
+    <Button
+        android:id="@+id/ibPeppy"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/peppy"
+        android:onClick="peppy"
+        /><!-- Peppy -->
+
+    <!-- Linha 2 -->
+    <Button
+        android:id="@+id/ibAckbar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ackbar"
+        android:onClick="ackbar"
+        /><!-- Ackbar -->
+    <Button
+        android:id="@+id/ibMario"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/mario"
+        android:onClick="mario"
+        /><!-- Mario -->
+    <Button
+        android:id="@+id/ibItem"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/item"
+        android:onClick="item"
+        /><!-- Item -->
+    <Button
+        android:id="@+id/ibObiwan"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/obiwan"
+        android:onClick="obiwan"
+        /><!-- Obiwan -->
+
+    <!-- Linha 3 -->
+    <Button
+        android:id="@+id/ibTiro"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/tiro"
+        android:onClick="tiro"
+        /><!-- Tiro -->
+    <Button
+        android:id="@+id/ibLegendary"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/legendary"
+        android:onClick="legendary"
+        /><!-- Legendary -->
+    <Button
+        android:id="@+id/ibMegaman"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/megaman"
+        android:onClick="megaman"
+        /><!-- Megaman -->
+    <Button
+        android:id="@+id/ibMimi"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/mimi"
+        android:onClick="mimi"
+        /><!-- Mimi -->
+
+    <!-- Linha 4 -->
+    <Button
+        android:id="@+id/ibImpostor"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/impostor"
+        android:onClick="impostor"
+        /><!-- Impostor -->
+    <Button
+        android:id="@+id/ibSpy"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/spy"
+        android:onClick="spy"
+        /><!-- spy -->
+    <Button
+        android:id="@+id/ibGandalf"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/gandalf"
+        android:onClick="gandalf"
+        /><!-- Gandalf -->
+    <Button
+        android:id="@+id/ibFodase"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/fodase"
+        android:onClick="fodase"
+        /><!-- Foda-se -->
+
+    <!-- Linha 5 -->
+    <Button
+        android:id="@+id/ibMilkbar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/milkbar"
+        android:onClick="milkbar"
+        /><!-- Milkbar -->
+    <Button
+        android:id="@+id/ibChallengeAccepted"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/challengeaccepted"
+        android:onClick="challengeAccepted" /><!-- Challenge Accepted -->
+    <Button
+        android:id="@+id/ibAwesome"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/awesome"
+        android:onClick="awesome"
+        /><!-- Awesome -->
+    <Button
+        android:id="@+id/ibHomer"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/homer"
+        android:onClick="homer"
+        /><!-- Homer -->
+
+    <!-- Linha 6 -->
+    <Button
+        android:id="@+id/ibManamana"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/manamana"
+        android:onClick="manaMana"
+        /><!-- Manamana -->
+    <Button
+        android:id="@+id/ibGanondorf"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ganondorf"
+        android:onClick="ganondorf"
+    /><!-- Ganondorf -->
+    <Button
+        android:id="@+id/ibSlippy"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/slippy"
+        android:onClick="slippy"
+        /><!-- Pepper -->
+    <Button
+        android:id="@+id/ibNavi"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/navi"
+        android:onClick="navi"
+        /><!-- Navi -->
+
+</GridLayout>
